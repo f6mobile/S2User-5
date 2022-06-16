@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8DCDC"
+    android:backgroundTint="#EDE1E1"
+    android:foregroundTint="#EADFDF"
+    android:outlineAmbientShadowColor="#F1EAEA"
+    android:outlineSpotShadowColor="#F1EAEA"
+    tools:context=".MainActivity3" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="72dp"
+        android:text="Rooms"
+        android:textColor="#18D520"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="313dp"
+        android:layout_height="231dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rhtckj"
+        tools:layout_editor_absoluteY="-34dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="247dp"
+        android:layout_height="264dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ai"
+        tools:layout_editor_absoluteY="-51dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="221dp"
+        android:layout_height="299dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071"
+        app:srcCompat="@drawable/green"
+        tools:layout_editor_absoluteX="-70dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
